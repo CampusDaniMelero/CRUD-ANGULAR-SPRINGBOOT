@@ -17,7 +17,7 @@ describe('AppComponent', () => {
   it(`should have the 'ejercicioConexionBackend' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ejercicioConexionBackend');
+    expect(app['title']).toEqual('ejercicioConexionBackend');
   });
 
   it('should render title', () => {
